@@ -1,0 +1,73 @@
+name: todos
+publish_to: 'none'
+
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_localizations:
+    sdk: flutter
+  collection: ^1.17.1
+  auto_size_text: ^3.0.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  rxdart: ^0.27.7
+  firebase_auth: ^4.17.9
+  firebase_core: ^2.27.1
+  flutter_native_splash: ^2.4.0
+  cloud_firestore: ^4.15.10
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  flutter_lints: ^3.0.0
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  build_runner: ^2.0.0
+
+flutter_native_splash:
+  color: "#4e8f2c"
+  android_12:
+    color: "#4e8f2c"
+
+  android: true
+  ios: true
+  web: false  
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/src/l10n/jsons/
+
+  fonts:
+    - family: Omnes
+      fonts:
+        - asset: assets/fonts/omnes/Omnes-ThinItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Thin.ttf
+        - asset: assets/fonts/omnes/Omnes-SemiBoldItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-SemiBold.ttf
+        - asset: assets/fonts/omnes/Omnes-Regular.ttf
+        - asset: assets/fonts/omnes/Omnes-MediumItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Medium.ttf
+        - asset: assets/fonts/omnes/Omnes-LightItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Light.ttf
+        - asset: assets/fonts/omnes/Omnes-Italic.ttf
+        - asset: assets/fonts/omnes/Omnes-HairlineItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Hairline.ttf
+        - asset: assets/fonts/omnes/Omnes-ExtraLightItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-ExtraLight.ttf
+        - asset: assets/fonts/omnes/Omnes-BoldItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Bold.ttf
+        - asset: assets/fonts/omnes/Omnes-BlackItalic.ttf
+        - asset: assets/fonts/omnes/Omnes-Black.ttf
